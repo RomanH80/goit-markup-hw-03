@@ -1,0 +1,115 @@
+:root {
+    --lightColor: #fff;
+    --darkBlueColor: #2E2F42;
+    --lightBlueColor: #4D5AE5;
+    --coldColor: #F4F4FD;
+    --colorHover: #404BBF;
+
+
+}
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+}
+.link-big{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+span{
+    color: #2e2f42;
+}
+.text{
+color: #f4f4fd;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+.link:hover,
+.link:focus,
+.contacts .link:hover, .contacts .link:focus {
+    color: #404bbf;
+}
+.contacts{
+    font-style: normal;
+    
+}
+.contacts .link{
+color: #434455;
+}
+.hero-image {
+    background-color: #2E2F42;
+    color: #ffffff;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.btn-link {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    background-color: #404BBF;
+}
+
+.title-m {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.section-a {
+    background-color: #F4F4FD;
+
+}
+
+.subtitle {
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.11;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.item {
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #ffffff;
+}
+.pstyle{
+    color: #F4F4FD;
+}
