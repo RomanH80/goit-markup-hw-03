@@ -40,16 +40,16 @@ a {
 .section{
     padding: 120px 0px;
 }
-.f-b{
+.flexbox{
     display: flex;
     justify-content: space-between;
 }
-.f-b-wrap{
+.flexbox-wrap{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
-.f-b-menu{
+.flexbox-menu{
     gap: 24px;
 }
 .link-big{
@@ -138,12 +138,11 @@ color: #434455;
     width: 1px;
     height: 1px;
     margin: -1px;
-    border: 0;
     padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
+    border: 0;
     overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
 }
 .title-m {
     font-weight: 500;
@@ -186,10 +185,11 @@ color: #434455;
     padding: 32px 0px;
 }
 .item-portfolio{
-    border: 1px solid #e7e9fc;
+    /* border: 1px solid #e7e9fc; */
 }
 .item-portfolio-desk{
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 /* ========== footer ========== */
 .footer {
