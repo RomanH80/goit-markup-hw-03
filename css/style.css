@@ -7,6 +7,11 @@
 
 
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -14,6 +19,31 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 24px;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.dn{
+    display: none;
+}
+.container{
+    max-width: 1158px;
+    margin: 0 auto;
+}
+.section{
+    padding: 120px 0px;
+}
+.fb{
+    display: flex;
+    justify-content: space-between;
+}
+.fb-wrap{
+    flex-wrap: wrap;
+    row-gap: 30px;
 }
 .link-big{
 font-family: "Raleway", sans-serif;
@@ -30,19 +60,16 @@ span{
 .text{
 color: #f4f4fd;
 }
-li {
-    list-style: none;
+/* ========== header ========== */
+.header{
+    padding: 24px 0px;
 }
-
-a {
-    text-decoration: none;
-}
-
 .link {
     color: #2e2f42;
     font-weight: 500;
+    /* padding: 0px 20px; */
+    padding-left: 40px;
 }
-
 .link:hover,
 .link:focus,
 .contacts .link:hover, .contacts .link:focus {
@@ -55,9 +82,12 @@ a {
 .contacts .link{
 color: #434455;
 }
+
+/* ========== main ========== */
 .hero-image {
     background-color: #2E2F42;
     color: #ffffff;
+    text-align: center;
 }
 
 .main-title {
@@ -65,6 +95,7 @@ color: #434455;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 50px;
 }
 
 .btn-link {
@@ -74,6 +105,7 @@ color: #434455;
     letter-spacing: 0.04em;
     font-weight: 500;
     line-height: 1.5;
+    padding: 7px 15px;
 }
 
 .btn-link:hover,
@@ -86,6 +118,7 @@ color: #434455;
     font-size: 20px;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 5px;
 }
 
 .section-a {
@@ -100,16 +133,29 @@ color: #434455;
     line-height: 1.11;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 60px;
 }
 
 .item {
     background-color: #ffffff;
 }
-
+.item-contect{
+    text-align: center;
+    padding: 20px 0px;
+}
+.item-portfolio{
+    border-bottom: 1px solid #434455;
+}
+.item-portfolio-desk{
+    padding: 20px 0px;
+}
+/* ========== footer ========== */
 .footer {
     background-color: #2E2F42;
     color: #ffffff;
+    padding: 80px 0px;
 }
 .pstyle{
     color: #F4F4FD;
+    margin-top: 7px;
 }
