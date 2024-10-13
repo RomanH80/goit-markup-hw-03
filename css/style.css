@@ -133,7 +133,7 @@ color: #434455;
 .btn-link:focus {
     background-color: #404BBF;
 }
-.visuallyhidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
